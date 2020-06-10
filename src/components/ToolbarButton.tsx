@@ -38,6 +38,7 @@ const ToolbarButton: FunctionComponent<IToolbarButtonProps> = (props) => {
                 {...sharedProps}
                 aria-label={props.label}
                 color={props.active ? "primary" : "default"}
+                title-{props.label}
                 size={size}
             >
                 {props.icon}
